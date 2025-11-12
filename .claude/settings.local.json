@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rojo build -o Agarrini.rbxlx)",
+      "Bash(dir)",
+      "Bash(move ShovelScript.luau ShovelScript.client.luau)",
+      "Bash(mv src/shared/ShovelScript.luau src/shared/ShovelScript.client.luau)",
+      "Bash(powershell -Command \"(Get-Content ''C:\\Users\\conra\\Documents\\Programacion\\Lenguajes\\LUA\\Agarrini\\src\\server\\init.server.luau'').Count\")",
+      "Bash(powershell -Command \"(Get-Content ''C:\\Users\\conra\\Documents\\Programacion\\Lenguajes\\LUA\\Agarrini\\src\\client\\init.client.luau'').Count\")",
+      "Bash(dir srcserver)",
+      "Bash(powershell -Command \"(Get-Content ''C:\\Users\\conra\\Documents\\Programacion\\Lenguajes\\LUA\\Agarrini\\Agarrini\\src\\server\\init.server.luau'').Count\")",
+      "Bash(python3:*)",
+      "Bash(powershell -Command:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
